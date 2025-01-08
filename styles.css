@@ -1,0 +1,246 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color: black;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body{
+    font-family: "Ubuntu", serif;
+    background-color: #110553;
+}
+
+header {
+    background-color: green;
+    
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #110553;
+    border-bottom: 3px solid rgb(255, 243, 174);
+
+    
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+span{
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #110553;
+    padding: 25px;
+    align-content: space-between;
+    
+}
+
+
+h2{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    padding-top: 25px;
+    font-family: "Jersey 25", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flex-container div{
+    color: white;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    /* border: 2px solid rgb(255, 243, 174); */
+}
+.card_miembro p, .card_miembro span, .card_miembro h3, .card_miembro h4{
+    color: white;
+}
+
+.card_miembro img{
+    width: 175px;
+    height: auto;
+    padding: 10px;
+}
+.card_miembro h3{
+    color: rgb(255, 243, 174);
+    padding-bottom: 5px;
+}
+
+.card_miembro h4{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.member-social-media{
+    text-align: center;
+}
+
+/* icons */
+
+.fa-x-twitter{
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.fa-discord{
+    color: #7289da;
+    -webkit-text-stroke: 1px black;
+}
+
+.map h3{
+
+    font-size: 35px;
+    color: rgb(255, 243, 174);
+    font-weight: 500;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+
+}
+
+.map h4{
+
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    padding: 10px 35px 10px 35px
+
+}
+
+.map p{
+    
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    padding: 10px 100px 10px 100px
+
+}
+
+.strat{
+    text-align: center;
+}
+
+
+
+.map iframe{
+
+    width: 50vh;
+    height: 28vh;
+    margin: auto;
+    padding: 15px 0 15px 0;
+}
+
+
+
+
+
+#sale_image{
+    height: 260px;
+    width: 100%;
+    background-image: url(/Proyecto/images/dlore_banner.jpg);
+    background-size: cover;
+    border-bottom: 3px solid rgb(255, 243, 174);
+}
+#sale_image h1{
+    display: flex;
+    color: white;
+    font-size: 85px;
+    line-height: 260px;
+    justify-content: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+#contact-us{
+    background-color: rgb(132, 124, 177);
+    
+}
+
+#contact-us h3{
+    color: white;
+    font-size: 30px;
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    padding: 15px 40px 30px 40px;
+}
+
+#contact-us h2{
+    padding-top: 20px;
+}
+
+
+form{
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.item-form{
+    display: grid;
+    grid-template-columns: 14vh 38vh;
+    margin-bottom: 0.5vh;
+}
+
+.item-form label{
+    font-weight: 500;
+    color: white;
+}
+
+.item-form input, .item-form textarea, .item-form select {
+    border-radius: 8px;
+    border: 1px solid white
+}
+
+.item-form input, .item-form textarea, .item-form select{
+    padding-left: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.item-form input[type="submit"]{
+    padding: 5px;
+    grid-column: 2/3;
+    justify-self: end;
+    font-size: 15px;
+}
