@@ -180,7 +180,7 @@ h2{
 #sale_image{
     height: 260px;
     width: 100%;
-    background-image: url('/images/dlore_banner.jpg');
+    background-image: url('images/dlore_banner.jpg');
     background-size: cover;
     border-bottom: 3px solid rgb(255, 243, 174);
 }
